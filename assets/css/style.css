@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Luxurious+Roman&family=Nanum+Brush+Script&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Leckerli+One&family=Lemon&family=Luxurious+Roman&family=Nanum+Brush+Script&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Lemon&family=Luxurious+Roman&family=Nanum+Brush+Script&family=Reggae+One&display=swap');
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(/assets/image/japan.png);
+    background-repeat:no-repeat;
+    background-size:cover
+}
+.todoContainer{
+    background-color: rgba(166, 215, 215, 0.688);
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #CEA3BF;
+    
+}
+
+.task-container h2{
+    font-family: "Lemon", serif;
+    color: #e7d2d4;
+    -webkit-text-stroke: 1px #816B65;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.add-container{
+    font-family: "Lemon", serif;
+    color: #e7d2d4;
+    font-size: 10px;
+    -webkit-text-stroke: 1px #816B65;
+    
+}
+
+
+
+.upList{
+    display: flex;
+    border-radius: 10px;    
+    background-color: rgb(166, 215, 215);
+    box-shadow: 0px 2px 2px #816B65;
+    
+}
+
+h1{
+    background-color: rgb(166, 215, 215);
+    font-size: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    
+}
+
+.upList img{
+    width: 8%;   
+    position:absolute;
+    left: 70%;
+    bottom: 84%;
+    
+
+}
+
+h1{
+    font-family: "DynaPuff", system-ui;
+    display: flex;
+    justify-content: center;
+    color:#816B65 ;
+    
+}
+
+.add-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content:flex-end;
+}
+
+#task-list{
+    font-family: "Leckerli One", cursive;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+#taskinput{
+    background-color: #F1EEE1;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: #6d858c5a;
+
+}
+
+.add-container button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin-left: 45%;
+    margin-right: 45%;
+    cursor: pointer;
+
+}
+
+button{
+    background-color: #fdfdfd00;
+    border: none;
+}
+
+.icon{
+    color: #F25596;
+    font-size: 32px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.supp{
+    color: rgb(230, 7, 7);
+    font-size: 18px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.supp:hover {
+    transform: scale(1.1);
+}
+
+.edit{
+    color: #005de9;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.edit:hover {
+    transform: scale(1.1);
+}
